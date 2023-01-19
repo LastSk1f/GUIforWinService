@@ -6,7 +6,7 @@ import re
 
 conn = psycopg2.connect(dbname='windowcorp', user='postgres', password='123123', host='localhost')
 cursor = conn.cursor()
-bot = telebot.TeleBot('5931490397:AAHTruRa5X4wl5ZN_Y33FuhYPnkbt9YawO8')
+bot = telebot.TeleBot('')
 
 
 @bot.message_handler(commands=['start'])
